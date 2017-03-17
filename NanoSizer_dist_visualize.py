@@ -35,9 +35,7 @@ def plot(fname):
 		gTemp.write("set grid\n")
 		gTemp.write("set logscale x\n")
 		gTemp.write("set style fill solid 0.4 border\n")
-		#gTemp.write("set multiplot\n")
 		gTemp.write("plot \"%s\" using 1:2 \"%%lf,%%lf\" title \"\" with boxes, \"\" using 1:3  title \"\" with line\n"%(fname))
-		#gTemp.write("replot \"%s\" using 1:3 title \"\" with line\n"%(fname))
 		gTemp.write("set output\n")
 	p=subprocess.call("gnuplot gpl_temp.plt")
 

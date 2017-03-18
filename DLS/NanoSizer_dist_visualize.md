@@ -11,7 +11,7 @@ I used to manually cut and paste and use Excel as well as some more specific dat
 
 Here is the Python-Gnuplot script. To run it on Windows, you need to first install python (for some reason, I am still using Python 2.7, but I believe it is also compatible with Python 3), Gnuplot and add their directory in %PATH%. Just check "add to %PATH%" options  when you install these softwares.
 
-Then, put all the .txt files in the same directory, download [this](https://github.com/MengXiangxi/Research-Scripts/blob/master/NanoSizer_dist_visualize.py) script file to the same directory and run it. A png figure will be generated for each .txt file in this directory, and it looks just like this one:
+Then, put all the .txt files in the same directory, download [this](https://github.com/MengXiangxi/Research-Scripts/blob/master/DLS/NanoSizer_dist_visualize.py) script file to the same directory and run it. A png figure will be generated for each .txt file in this directory, and it looks just like this one:
 ![](https://3.bp.blogspot.com/-X9_E6HFreq4/WMxNBn4yNtI/AAAAAAAAAFk/DmC7M9tN4x4YpMMi8xgXiB_gKOHMXNXgACLcB/s1600/filename.png)
 
 In the meantime, another .csv file is generated. You can import this file into other software for a further analysis.

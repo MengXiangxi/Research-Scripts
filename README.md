@@ -4,6 +4,8 @@ The various data processing scripts for research.
 ## Preference
 I prefer using python 3 and Gnuplot to format the data and generate figures automatically.
 
+I am a Windows 10 user and I use ImageMagick as an image-processing command line tool.
+
 ## DLS
 I use a Malvern NanoSizer DLS as well as a Brookhaven one.
 
@@ -12,8 +14,8 @@ I measure fluorescence emission spectra with a special spectrometer. The wavelen
 
 ## Miscellaneous
 Simple post-processing tools.
-* `collage.bat` To make combined figure panel.
-* `makegif.bat` To make a .gif animation.
+* `collage.bat` To make combined figure panel. Uses ImageMagick.
+* `makegif.bat` To make a .gif animation. Uses ImageMagick.
 * `fluo_get_ctime.py` To record the creation time of files in a folder.
 
 ## Sharing

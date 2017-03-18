@@ -1,0 +1,1 @@
+magick montage *.png -geometry +0+0 -background #00000000 collaged.png

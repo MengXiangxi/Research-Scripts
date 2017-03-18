@@ -1,0 +1,1 @@
+magick convert -delay 60 -loop 0 *.png animated.gif

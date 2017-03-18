@@ -17,6 +17,7 @@ def transcribe(fname):
 			for j in content: # Traverse the lines
 				if len(j.split('\t')[4*i])>0:
 				# Delete empty items at the end of the table
+
 					x = j.split('\t')[4*i]
 					y = j.split('\t')[4*i+1]
 					cumul += float(y)
@@ -27,7 +28,7 @@ def plot(fname):
 	figtitle = fname[:-10]
 	with open(fname,'r') as source:
 		dataraw = source.readlines()
-	for i in range(0, len(dataraw)-1): # Last line should be empty
+=for i in range(0, len(dataraw)-1): # Last line should be empty
 		x = float(dataraw[i].strip().split(',')[0])
 		y = float(dataraw[i].strip().split(',')[1])
 	with open('gpl_temp.plt','w') as gTemp: # gTemp is a Gnuplot script
@@ -52,4 +53,5 @@ txtdir = os.listdir(os.getcwd())
 for i in txtdir: # Traverse the files in the folder
 	if i[-4:] == '.txt':
 		transcribe(i) # First transcribe them in a better format
-		plot(i[:-4]+'_trans.csv') # Then plot them
+		
+plot(i[:-4]+'_trans.csv') # Then plot them=

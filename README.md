@@ -8,23 +8,25 @@ The various data processing scripts for research.
 - I am a Windows 10 user and I use ImageMagick as an image-processing command line tool.
 - I use the latest version of MATLAB if possible.
 
-## ColorMask
+## Contents
+
+### ColorMask
 
 To generate overlayed color layers on NIR-II camera images. MATLAB + Photoshop.
 
-## Dicom
+### Dicom
 
 Some code to process the DICOM files.
 
-## DLS
+### DLS
 
 I use a Malvern NanoSizer DLS as well as a Brookhaven one.
 
-## Fluorescence
+### Fluorescence
 
 I measure fluorescence emission spectra with a special spectrometer. The wavelength is mainly in the NIR-II range.
 
-## Miscellaneous
+### Miscellaneous
 
 Simple post-processing tools.
 
